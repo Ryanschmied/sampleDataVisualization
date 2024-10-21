@@ -24,7 +24,7 @@ function App() {
     setSelectedChart(event.target.value);
   };
 
-  // Function to dynamically select the current chart ref
+  // Function to dynamically select the currently selected chart ref
   const getCurrentChartRef = () => {
     switch (selectedChart) {
       case 'webVisitors':
